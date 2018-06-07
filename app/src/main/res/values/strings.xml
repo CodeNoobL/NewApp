@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <string name="me">自己</string>
+    <string name="menu">菜单</string>
+    <string name="news">新闻</string>
+    <string name="show">直播</string>
+    <string name="video">视频</string>
+</resources>

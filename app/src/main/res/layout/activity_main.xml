@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.administrator.newapp.FirstLevel.NoScrollViewPager
+        android:id="@+id/viewPager_firstlevel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"></com.example.administrator.newapp.FirstLevel.NoScrollViewPager>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:checked="true"
+            style="@style/RButton"
+            android:text="@string/news"
+            android:drawableTop="@drawable/newsselector"
+            />
+        <RadioButton
+            android:id="@+id/rb_video"
+            style="@style/RButton"
+            android:text="@string/video"
+            android:drawableTop="@drawable/videoselector"
+            />
+        <RadioButton
+            android:id="@+id/rb_menu"
+            style="@style/RButton"
+            android:text="@string/menu"
+            android:drawableTop="@drawable/menuselector"
+            />
+        <RadioButton
+            android:id="@+id/rb_show"
+            style="@style/RButton"
+            android:text="@string/show"
+            android:drawableTop="@drawable/showselector"
+            />
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/RButton"
+            android:text="@string/me"
+            android:drawableTop="@drawable/meselector"
+            />
+    </RadioGroup>
+</LinearLayout>
